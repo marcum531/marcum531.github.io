@@ -1,0 +1,138 @@
+html{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 64px;
+    color: darkblue;
+    text-align: center;
+    background-color: lightblue;
+} 
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+    background-color: rgb(129, 211, 238);
+}
+
+
+/* Body color */
+body{ 
+    background-color: rgb(237,237,237);
+}
+
+/* Navigation Bar */
+.navbar{ 
+    max-height: 57px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+.navigation .navbar-brand{
+    color: white;
+    margin-left: 40px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: white; 
+    font-size: 15px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:rgb(231,231,231); 
+}
+.dropdown-item{ 
+    color: rgb(109,128,146);
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: rgb(231,231,231);
+}
+
+a{
+    color: rgb(109,128,146);
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    background-color: rgb(231,231,231);
+}
+
+.navbar-brand:hover{
+    color: rgb(175,175,175);
+
+
+img{
+    width: 100%;
+    height: 100%;
+  }
+
+div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: maroon;
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+a{
+    width: 300px;
+}
+.box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    padding: 10px 20px 15px;
+    background-color: white;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(78, 78, 78); 
+    border-top-style: solid; 
+    border-top-width: 5px; 
+    border-top-color: lightblue;
+    color: white; 
+    min-height: 55px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px; 
+}
+
+.table{
+    font-size: 14px;
+}
+/* Media Queries */
+@media(max-width: 992px){
+    .navbar-expand-lg{
+        background-color: lightblue;
+    }
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+    }
+    .navbar-brand{
+        padding: 10px; 
+    }
+    button{
+        margin-right: 30px; 
+    }
+    button:focus {
+        outline: 1px dotted;
+        outline: 5px auto; 
+        }
+    }
